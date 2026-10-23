@@ -85,6 +85,7 @@ int rodCut(int rodToCut, vector<int> &rodLengths, vector<int> &rodPrices, int nu
         return 0;
     }
     if (dp[rodToCut] != -1) {
+        // cout << "Found| Length: " << rodToCut << " | Cost: " << dp[rodToCut] << endl;
         return dp[rodToCut];
     }
 
